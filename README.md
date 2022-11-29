@@ -7,6 +7,12 @@ See requirements.org (plain-text) for a description of the project.
 
 Make a shared state Websockets drawing program
 
+Reference
+==============================
+1. My implementation was inspired by https://github.com/abramhindle/WebSocketsExamples/blob/master/chat.py#L80
+  * Owner: Abram Hindle
+  * Date Accesed: Nov 25th, 2022
+
 Prereqs
 =======
 Create a virtual environment and install the required dependencies.
