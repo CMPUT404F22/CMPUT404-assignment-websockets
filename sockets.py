@@ -121,6 +121,7 @@ def subscribe_socket(ws):
         while True:
             # block here
             msg = client.get()
+            print("Server sending:", msg)
             ws.send(msg)
     except Exception as e:# WebSocketError as e:
         print("WS Error %s", e)
